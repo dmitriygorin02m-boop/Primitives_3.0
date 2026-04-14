@@ -1,9 +1,9 @@
 public class Main {
     public static void main(String[] args) {
-        int balance = 350;
-        int refill = 1_101;
+        double balance = -10;
+       double refill = 1_099.09;
 
-        int bonus;
+        double bonus;
         if (refill >= 1_100) {
             bonus = refill / 100;
 
@@ -11,7 +11,7 @@ public class Main {
             bonus = 0;
         }
 
-        int result = bonus + balance + refill;
+        double result = bonus + balance + refill;
 
         System.out.println("Итоговый счёт: " + result);
 
